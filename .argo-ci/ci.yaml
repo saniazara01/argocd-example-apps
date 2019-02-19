@@ -68,7 +68,7 @@ spec:
         value: "1"
     sidecars:
     - name: dind
-      image: docker:18.09-dind
+      image: docker:18.09.2-dind
       securityContext:
         privileged: true
       mirrorVolumeMounts: true
